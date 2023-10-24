@@ -1,164 +1,225 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .banner {
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(1322308.jpeg);
-    background-size: cover;
-    background-position: center;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(1322308.jpeg);
+  background-size: cover;
+  background-position: center;
 
 }
 
 .navbar {
-    width: 85%;
-    margin: auto;
-    padding: 35px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    transition: 1s;
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: 1s;
 }
 
 .navbar ul li{
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
 }
 
 .navbar ul li a{
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    transition: 1s;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  transition: 1s;
 }
 
 .navbar ul li a:hover {
-    color: #ffffffcc;
-    text-decoration: underline;
+  color: #ffffffcc;
+  text-decoration: underline;
 }
 
 .navbar ul li a:active {
-    color: #ffffff9a;
-    text-decoration: underline;
+  color: #ffffff9a;
+  text-decoration: underline;
 }
 
 .heading {
-    color: #fff;
-    font-size: 50px;
-    font-weight: bold;
-    text-align: left;
-    margin-bottom: 10px;
-    position: absolute;
-    top: 25%;
-    left: 40%;
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  opacity: 0;
+  animation: fadeIn 0.8s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  0% {
     opacity: 0;
-    animation: fadeIn 0.8s ease-in forwards;
   }
-  
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  100% {
+    opacity: 1;
   }
+}
 
 
 .quote {
-    display: inline-block;
-    border-style: dashed;
-    border-color: white;
-    padding-top: 5px;
-    padding-bottom: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    position: absolute;
-    top: 40%;
-    left: 25%;
+  display: inline-block;
+  border-style: dashed;
+  border-color: white;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  opacity: 0;
+  animation: fadeIn 0.8s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  0% {
     opacity: 0;
-    animation: fadeIn 0.8s ease-in forwards;
   }
-  
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  100% {
+    opacity: 1;
   }
+}
 
 
 .quotelol {
-    color: #fff;
-    margin-top: 40px;
-    text-align: left;
-    line-height: 30px;
-    margin-top: 5px;
+  color: #fff;
+  margin-top: 40px;
+  text-align: left;
+  line-height: 30px;
+  margin-top: 5px;
 }
 
 .reply {
-    color: #ffffffe7;
-    font-size: 12px;
-    margin-left: 35%;
+  color: #ffffffe7;
+  font-size: 12px;
+  margin-left: 35%;
 }
 
 .button {
-    background-color: transparent;
-    color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 16px;
-    padding-right: 16px;
-    border: #fff;
-    border-style: solid;
-    display: inline-block;
-    border-radius: 20px;
-    position: absolute;
-    top: 55%;
-    left: 45%;
-    transition: 1s;
-    cursor: pointer;
+  background-color: transparent;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: #fff;
+  border-style: solid;
+  display: inline-block;
+  border-radius: 20px;
+  position: absolute;
+  top: 55%;
+  left: 45%;
+  transition: 1s;
+  cursor: pointer;
+  opacity: 0;
+  animation: fadeIn 0.8s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  0% {
     opacity: 0;
-    animation: fadeIn 0.8s ease-in forwards;
   }
-  
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  100% {
+    opacity: 1;
   }
+}
 
 .button a {
-    text-decoration: none;
-    color: white;
-    transition: 1s;
-    font-weight: bold;
+  text-decoration: none;
+  color: white;
+  transition: 1s;
+  font-weight: bold;
 }
 
 .button a:hover {
-    color: black;
+  color: black;
 }
 
 
 .button:hover {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
 .button:active {
-    background-color: #ffffffd8;
-    color: black;
+  background-color: #ffffffd8;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.banner {
+    min-height: 260vh;
+}
+
+.heading {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 25%;
+  left: 23%;
+}
+
+.quote {
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  text-align: center;
+  margin-right: 10%;
+
+}
+
+.quotelol {
+  color: #fff;
+  font-size: 15px;
+  margin-top: 40px;
+  text-align: left;
+  line-height: 25px;
+  margin-top: 5px;
+}
+
+.reply {
+font-size: 12px;
+margin-left: 0%;
+margin-top: 5px;
+}
+
+.button {
+position: absolute;
+top: 65%;
+left: 35%;
+
+}
+
+.navbar ul li{
+margin: 0 5px;
+text-align: center;
+}
+
+
+
 }
