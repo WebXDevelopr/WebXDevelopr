@@ -1,0 +1,895 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.banner {
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar {
+    width: 100%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+    position: fixed;
+    transition: 1s;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover {
+    color: #ffffffcc;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.navbar ul li a:active {
+    color: #ffffff9a;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.text {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+
+
+}
+
+.hello {
+    font-size: 50px;
+    text-align: left;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 20%;
+}
+
+.name {
+    font-size: 100px;
+    text-align: left;
+    color: #ffffffc4;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.webcolor {
+    color: #ffffff81;
+}
+
+.dev {
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.sub {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.button {
+    position: absolute;
+    top: 70%;
+    left: 13%;
+}
+
+.buttonn {
+    background-color: transparent;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+.buttonn:hover {
+    background-color: #fff;
+
+}
+
+.buttonn a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.buttonn a:hover {
+    color: black;
+}
+
+.button1 {
+    position: absolute;
+    top: 70%;
+    left: 25%;
+}
+
+.buttonn1 {
+    background-color: transparent;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+.buttonn1:hover {
+    background-color: #fff;
+
+}
+
+.buttonn1 a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.buttonn1 a:hover {
+    color: black;
+}
+
+
+
+.Aboutlol {
+    position: absolute;
+    top: 115%;
+    left: 5%;
+
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+
+}
+
+.line1 {
+    font-size: 50px;
+    color: white;
+}
+
+.paragraph {
+    color: white;
+    font-size: 25px;
+    line-height: 35px;
+    max-width: 50%;
+    margin-top: 20px;
+}
+
+.name1 {
+    font-weight: bold;
+    color: #ffffff8e;
+
+}
+
+.skillsbtn {
+    position: absolute;
+    top: 180%;
+    left: 5%;
+}
+
+.skillsbtn_ {
+    display: inline-block;
+    position: absolute;
+    top: 180%;
+    left: 23%;
+}
+
+.skillsbtn1 {
+    background-color: transparent;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+.skillsbtn1:hover {
+    background-color: #fff;
+
+}
+
+.skillsbtn1 a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.skillsbtn1 a:hover {
+    color: black;
+}
+
+.skillstxt {
+    position: absolute;
+    top: 215%;
+    left: 33%;
+}
+
+.skillstitle {
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+
+}
+
+.skills-1 {
+    position: absolute;
+    top: 240%;
+    left: 5%;
+    max-width: 16%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.5s;
+}
+
+.skills-1:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.699);
+    font-weight: bold;
+}
+
+.skills-1:active{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.skill_1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.skill_1line {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.skill_1bio {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 30px;
+}
+
+.skills-2 {
+    position: absolute;
+    top: 238%;
+    left: 29%;
+    max-width: 14%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    transition: 0.5s;
+}
+
+.skills-2:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.699);
+    font-weight: bold;
+}
+
+.skills-2:active{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.skill_2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.skill_2line {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-top: 0px;
+}
+
+.skills-3 {
+    position: absolute;
+    top: 240%;
+    left: 53%;
+    max-width: 16%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    transition: 0.5s;
+}
+
+.skills-3:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.699);
+    font-weight: bold;
+}
+
+.skills-3:active{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.skills-4 {
+    position: absolute;
+    top: 240%;
+    left: 77%;
+    max-width: 16%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    transition: 0.5s;
+}
+
+.skills-4:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.699);
+    font-weight: bold;
+}
+
+.skills-4:active{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.servicebtn {
+    position: absolute;
+    top: 280%;
+    left: 25%;
+}
+
+.contactbtn {
+    position: absolute;
+    top: 280%;
+    left: 53%;
+}
+
+.servicestxt {
+    position: absolute;
+    top: 315%;
+    left: 33%;
+}
+
+.servicestitle {
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.service1 {
+    position: absolute;
+    top: 338%;
+    left: 10%;
+    max-width: 16%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.5s;
+}
+
+.service1:hover {
+    font-weight: bold;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.699);
+}
+
+.service1text {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.service1line {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.service1bio {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 30px;
+}
+
+.service2{
+    position: absolute;
+    top: 337%;
+    left: 39%;
+    max-width: 16%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.5s;
+}
+
+.service2:hover {
+    font-weight: bold;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.699);
+}
+
+.service3 {
+    position: absolute;
+    top: 337%;
+    left: 68%;
+    max-width: 16%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.5s;
+}
+
+.service3:hover {
+    font-weight: bold;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.699);
+}
+
+.contactbtn1 {
+    position: absolute;
+    top: 380%;
+    left: 37%;
+}
+
+.contactme {
+    position: absolute;
+    top: 423%;
+    left: 5%;
+}
+
+.contactbutton {
+    position: absolute;
+    top: 465%;
+    left: 5%;
+}
+
+.interestedlol{
+    font-weight: bold;
+    color: #ffffff7a;
+}
+
+.paragraph:hover {
+    font-weight: bold;
+}
+
+.line4{
+    font-size: 30px;
+        color: white;
+        margin-left: 10px;
+}
+
+.paragraph3{
+    color: white;
+    font-size: 25px;
+    line-height: 35px;
+    max-width: 50%;
+    margin-top: 20px;
+}
+
+.servicestitle1 {
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .banner{
+    width: 120%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    }
+
+    .navbar {
+        width: 85%;
+        margin: auto;
+        padding: 30px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: fixed;
+        transition: 1s;
+    }
+
+    .navbar ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 6px;
+
+    }
+
+    .navbar ul li a{
+        font-size: 12.5px;
+    }
+
+    .text {
+        position: absolute;
+        top: 35%;
+        left: 10%;
+    
+    
+    }
+    
+    .hello {
+        font-size: 35px;
+        text-align: left;
+        color: #fff;
+        font-weight: bold;
+        margin-left: 24%;
+    }
+
+    .name {
+        font-size: 50px;
+        text-align: left;
+        color: #ffffffc4;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+    
+    .dev {
+        font-size: 35px;
+        color: #fff;
+        font-weight: bold;
+        margin-top: 25px;
+        margin-left: 9%;
+    }
+
+    .sub {
+        font-size: 13px;
+        line-height: 25px;
+        color: #fff;
+        margin-top: 50px;
+        margin-right: 6%;
+    }
+
+    .button {
+        position: absolute;
+        top: 85%;
+        left: 10%;
+    }
+    
+    .buttonn {
+        background-color: transparent;
+        color: white;
+        border-style: solid;
+        border-color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 30px;
+        transition: 1s;
+    }
+    
+    .button1 {
+        position: absolute;
+        top: 85%;
+        left: 53%;
+    }
+    
+    .buttonn1 {
+        background-color: transparent;
+        color: white;
+        border-style: solid;
+        border-color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 30px;
+        transition: 1s;
+    }
+    
+    .Aboutlol {
+        position: absolute;
+        top: 110%;
+        left: 5%;
+    
+    }
+    
+    .title {
+        color: white;
+        font-weight: bold;
+        font-size: 50px;
+        margin-bottom: 0px;
+
+    }
+    
+    .line1 {
+        font-size: 30px;
+        color: white;
+        margin-left: 10px;
+    }
+    
+    .paragraph {
+        color: white;
+        font-size: 12px;
+        line-height: 30px;
+        max-width: 90%;
+        margin-top: 10px;
+    }
+    
+    .name1 {
+        font-weight: bold;
+        color: #ffffff8e;
+    
+    }
+    
+    .skillsbtn {
+        position: absolute;
+        top: 185%;
+        left: 20%;
+    }
+    
+    .skillsbtn_ {
+        display: inline-block;
+        position: absolute;
+        top: 180%;
+        left: 23%;
+        display: none;
+    }
+    
+    .skillsbtn1 {
+        background-color: transparent;
+        color: white;
+        border-style: solid;
+        border-color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+        transition: 1s;
+    }
+
+    .skillstxt {
+        position: absolute;
+        top: 207%;
+        left: 20%;
+    }
+    
+    .skillstitle {
+        color: white;
+        font-weight: bold;
+        font-size: 45px;
+        text-align: center;
+    
+    }
+
+    .skill_1 {
+        font-size: 15px;
+        font-weight: bold;
+        color: #fff;
+    }
+    
+    .skill_1line {
+        font-size: 10px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .skill_1bio {
+        margin-top: 10px;
+        font-size: 10px;
+        color: #fff;
+        line-height: 30px;
+    }
+
+    .skill_2 {
+        font-size: 15px;
+        font-weight: bold;
+        color: #fff;
+        margin-bottom: 0px;
+    }
+    
+    .skill_2line {
+        font-size: 10px;
+        font-weight: bold;
+        color: white;
+        margin-top: 0px;
+    }
+    
+    .skills-1,
+.skills-2,
+.skills-3,
+.skills-4 {
+    max-width: 40%; 
+    padding: 10px; 
+    transition: 0.5s;
+}
+
+.skills-1, .skills-2 {
+    position: absolute;
+    top: 227%;
+    left: 5%;
+}
+
+.skills-3, .skills-4 {
+    position: absolute;
+    top: 262%; 
+    left: 5%;
+}
+
+.skills-2, .skills-4 {
+    left: 55%; 
+}
+
+    
+.servicebtn {
+        position: absolute;
+        top: 290%;
+        left: 18%;
+    }
+
+    .skillsbtn1 {
+        background-color: transparent;
+        color: white;
+        border-style: solid;
+        border-color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+        transition: 1s;
+    }
+    
+.contactbtn {
+        position: absolute;
+        top: 280%;
+        left: 53%;
+        display: none;
+    }
+
+    .servicestxt {
+        position: absolute;
+        top: 310%;
+        left: 15%;
+    }
+    
+    .servicestitle {
+        color: #fff;
+        font-size: 45px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .service1,.service2,.service3 {
+        max-width: 40%; 
+    padding: 10px; 
+    transition: 0.5s;
+    }
+
+    .service1{
+        position: absolute;
+    top: 327%;
+    left: 5%;
+    }
+
+    .service2 {
+        position: absolute;
+        top: 326.5%;
+        left: 56%;
+    }
+    
+    .service3 {
+        position: absolute;
+        top: 353%;
+        left: 32%;
+    }
+    
+    
+    .service1text {
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    .service1line {
+        font-size: 10px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .service1bio {
+        margin-top: 10px;
+        font-size: 10px;
+        color: #fff;
+        line-height: 25px;
+    }
+
+    
+    
+    
+    
+    
+    
+    .contactbtn1 {
+        position: absolute;
+        top: 385%;
+        left: 25%;
+    }
+
+    .line4 {
+        display: none;
+    }
+
+    .contactme{
+        top: 430%;
+        left: 5%;
+    }
+
+    .paragraph3 {
+        color: white;
+        font-size: 12px;
+        line-height: 30px;
+        max-width: 90%;
+        margin-top: 10px;
+    }
+
+    .paragraph3 {
+        margin-top: 20px;
+    }
+
+    .servicestitle1 {
+        color: #fff;
+        font-size: 45px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .contactbutton{
+        position: absolute;
+        top: 480%;
+        left: 30%;
+    }
+
+    
+
+
+}
